@@ -1,0 +1,67 @@
+body {
+	padding: 100px;
+	background-color: #323232;
+	font-size:12px;
+	font-family: "微软雅黑"
+}
+
+ul li {
+	list-style: none;
+}
+
+.tab {
+	width: 300px;
+}
+
+.tab .tab-nav {
+	padding: 0;
+	margin: 0;
+	height: 30px;
+}
+
+.tab .tab-nav li {
+	float: left;
+    margin-right: 5px;
+    background-color: #767676;
+    border-radius: 3px 3px 0 0;
+}
+
+.tab .tab-nav li.actived {
+	background-color: #fff;
+}
+
+.tab .tab-nav li.actived a {
+	color: #777;
+}
+
+.tab .tab-nav li a {
+	display: block;
+	height: 30px;
+	padding: 0 20px;
+	color: #fff;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.tab .content-wrap {
+	background-color: #fff;
+	padding: 5px;
+	height: 200px;
+}
+
+.tab .content-wrap .content-item {
+	position: absolute;
+	height: 200px;
+	width: 290px;
+	display: none;
+} 
+
+.tab .content-wrap img {
+	width: 100%;
+	height: 100%;
+}
+
+.tab .content-wrap .curret {
+	display: block;
+}
+
